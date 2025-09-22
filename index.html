@@ -1,0 +1,37 @@
+<html>
+<head>
+  <title>GRADE CALCULATOR</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="calculator">
+      <form onsubmit="calculate(); return false;">
+      <label>Maths:</label>
+      <input type="number" id="maths" min="0" max="100" required><br>
+      <label>SST:</label>
+      <input type="number" id="sst" min="0" max="100" required><br>
+      <label>Science:</label>
+      <input type="number" id="sci" min="0" max="100" required><br>
+      <label>English:</label>
+      <input type="number" id="eng" min="0" max="100" required><br>
+      <label>Hindi:</label>
+      <input type="number" id="hindi" min="0" max="100" required><br>
+      <button type="submit">Check Grade</button>
+      <h4 id="grade"></h4>
+      </form>
+    </div>
+    <div id="grade_menu">
+      <h4>A+ For 95 And 95+</h4>
+      <h4>B+ For 85 And 85+</h4>
+      <h4>C+ For 75 And 75+</h4>
+      <h4>D+ For 65 And 65+</h4>
+      <h4>Fail On Below 65</h4><br>
+    </div>
+  </div>
+  <h1>SPREAD HAPPINES</h1>
+  <h4 id="contact">Contact Me:</h4>
+  <a href="https://github.com/NyxVeil78"><img src="github.png" alt="Git Hub Image"></a>
+</body>
+</html>
+<script src="index.js"></script>
